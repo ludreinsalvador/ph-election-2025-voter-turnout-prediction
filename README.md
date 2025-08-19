@@ -188,26 +188,6 @@ This project follows the **CRISP-DM** (Cross-Industry Standard Process for Data 
 | Rizal | 76.30% | 55.47% | 20.83% |
 | Laguna | 79.43% | 62.80% | 16.62% |
 
-## Project Structure
-
-```
-ph-election-2025-voter-turnout-prediction/
-├── dataset/
-│   ├── .ipynb_checkpoints/
-│   └── province_metadata.csv
-├── notebook/
-│   ├── salvador-ph-election-2025-voter-turnout-prediction.html
-│   └── salvador-ph-election-2025-voter-turnout-prediction.ipynb
-├── philippine_elections_model/
-│   ├── feature_scaler.pkl
-│   ├── linear_regression_model.joblib
-│   ├── linear_regression_model.pkl
-│   ├── model_results.json
-│   └── test_predictions.csv
-├── visualization/
-└── README.md
-```
-
 ## Key Findings
 
 ### Geographic Patterns
@@ -244,6 +224,26 @@ ph-election-2025-voter-turnout-prediction/
 - **Real-time updates** - Implement system for live election monitoring
 
 ## Installation
+
+## Project Structure
+
+```
+ph-election-2025-voter-turnout-prediction/
+├── dataset/
+│   ├── .ipynb_checkpoints/
+│   └── province_metadata.csv
+├── notebook/
+│   ├── salvador-ph-election-2025-voter-turnout-prediction.html
+│   └── salvador-ph-election-2025-voter-turnout-prediction.ipynb
+├── philippine_elections_model/
+│   ├── feature_scaler.pkl
+│   ├── linear_regression_model.joblib
+│   ├── linear_regression_model.pkl
+│   ├── model_results.json
+│   └── test_predictions.csv
+├── visualization/
+└── README.md
+```
 
 ### Prerequisites
 
@@ -307,5 +307,6 @@ scaler = pickle.load(open('philippine_elections_model/feature_scaler.pkl', 'rb')
 ---
 
 *This project demonstrates the application of machine learning techniques in political science and election analysis, contributing to better understanding of voter behavior patterns in the Philippines.*
+
 
 
