@@ -8,7 +8,6 @@ A machine learning project that predicts provincial voter turnout percentages in
 - [Dataset](#dataset)
 - [Methodology](#methodology)
 - [Key Features](#key-features)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Results](#results)
 - [Visualizations](#visualizations)
@@ -16,6 +15,7 @@ A machine learning project that predicts provincial voter turnout percentages in
 - [Key Findings](#key-findings)
 - [Challenges](#challenges)
 - [Future Improvements](#future-improvements)
+- [Installation](#installation)
 - [References](#references)
 
 ## Project Overview
@@ -78,58 +78,6 @@ This project follows the **CRISP-DM** (Cross-Industry Standard Process for Data 
 - **Comprehensive Evaluation:** R², MAE, and RMSE metrics with overfitting analysis
 - **Visualization:** Rich set of plots for data exploration and model evaluation
 - **Model Export:** Trained models saved in multiple formats for deployment
-
-## Installation
-
-### Prerequisites
-
-- Python 3.8 or higher
-- Jupyter Notebook
-
-### Required Libraries
-
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
-```
-
-### Clone Repository
-
-```bash
-git clone https://github.com/ludreinsalvador/ph-election-2025-voter-turnout-prediction.git
-cd ph-election-2025-voter-turnout-prediction
-```
-
-## Usage
-
-### Running the Analysis
-
-1. **Launch Jupyter Notebook:**
-   ```bash
-   jupyter notebook
-   ```
-
-2. **Open the main notebook:**
-   ```
-   salvador-ph-election-2025-voter-turnout-prediction.ipynb
-   ```
-
-3. **Run all cells** to reproduce the complete analysis
-
-### Using the Trained Model
-
-```python
-import pickle
-import joblib
-
-# Load the trained model
-model = joblib.load('philippine_elections_model/linear_regression_model.joblib')
-scaler = pickle.load(open('philippine_elections_model/feature_scaler.pkl', 'rb'))
-
-# Make predictions (example)
-# features = [precinct_percentage, precinct_count, precinct_total, voter_count, voter_total]
-# scaled_features = scaler.transform([features])
-# prediction = model.predict(scaled_features)
-```
 
 ## Results
 
@@ -295,6 +243,58 @@ ph-election-2025-voter-turnout-prediction/
 - **Advanced models** - Explore ensemble methods with regularization
 - **Real-time updates** - Implement system for live election monitoring
 
+## Installation
+
+### Prerequisites
+
+- Python 3.8 or higher
+- Jupyter Notebook
+
+### Required Libraries
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+```
+
+### Clone Repository
+
+```bash
+git clone https://github.com/ludreinsalvador/ph-election-2025-voter-turnout-prediction.git
+cd ph-election-2025-voter-turnout-prediction
+```
+
+## Usage
+
+### Running the Analysis
+
+1. **Launch Jupyter Notebook:**
+   ```bash
+   jupyter notebook
+   ```
+
+2. **Open the main notebook:**
+   ```
+   salvador-ph-election-2025-voter-turnout-prediction.ipynb
+   ```
+
+3. **Run all cells** to reproduce the complete analysis
+
+### Using the Trained Model
+
+```python
+import pickle
+import joblib
+
+# Load the trained model
+model = joblib.load('philippine_elections_model/linear_regression_model.joblib')
+scaler = pickle.load(open('philippine_elections_model/feature_scaler.pkl', 'rb'))
+
+# Make predictions (example)
+# features = [precinct_percentage, precinct_count, precinct_total, voter_count, voter_total]
+# scaled_features = scaler.transform([features])
+# prediction = model.predict(scaled_features)
+```
+
 ## References
 
 - ReferencesABS-CBN. (2022). *Halalan 2022 Philippine Election Results | ABS-CBN News*. ABS-CBN News. https://halalanresults.abs-cbn.com/
@@ -307,4 +307,5 @@ ph-election-2025-voter-turnout-prediction/
 ---
 
 *This project demonstrates the application of machine learning techniques in political science and election analysis, contributing to better understanding of voter behavior patterns in the Philippines.*
+
 
