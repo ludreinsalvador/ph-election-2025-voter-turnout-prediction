@@ -297,7 +297,7 @@ scaler = pickle.load(open('philippine_elections_model/feature_scaler.pkl', 'rb')
 
 ## References
 
-- ReferencesABS-CBN. (2022). *Halalan 2022 Philippine Election Results | ABS-CBN News*. ABS-CBN News. https://halalanresults.abs-cbn.com/
+- ABS-CBN. (2022). *Halalan 2022 Philippine Election Results | ABS-CBN News*. ABS-CBN News. https://halalanresults.abs-cbn.com/
 - BwandoWando. (2025). *🇵🇭 Philippine Elections 2025 Voter Turnout*. Kaggle.com. https://www.kaggle.com/datasets/bwandowando/philippine-elections-2025-voter-turnout?select=province_metadata.csv
 - Data Science PM. (2024, December 9). *What Is CRISP DM? Data Science Project Management*. https://www.datascience-pm.com/crisp-dm-2/
 - Kaggle. (2025). *Learn Python, Data Viz, Pandas & More | Tutorials | Kaggle*. Www.kaggle.com. https://www.kaggle.com/learn
@@ -307,6 +307,7 @@ scaler = pickle.load(open('philippine_elections_model/feature_scaler.pkl', 'rb')
 ---
 
 *This project demonstrates the application of machine learning techniques in political science and election analysis, contributing to better understanding of voter behavior patterns in the Philippines.*
+
 
 
 
