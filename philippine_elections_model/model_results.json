@@ -1,0 +1,25 @@
+{
+    "model_name": "Linear Regression",
+    "test_r2": 0.570862758271112,
+    "test_mae": 5.440080664380555,
+    "test_rmse": 8.609827972974344,
+    "train_r2": 0.7767703116740057,
+    "train_mae": 3.0794830158120443,
+    "train_rmse": 6.040007693978283,
+    "feature_names": [
+        "precinct_percentage",
+        "precinct_count",
+        "precinct_total",
+        "voter_count",
+        "voter_total"
+    ],
+    "feature_coefficients": [
+        6.857160026441508,
+        -112.50269651414781,
+        115.41574299182787,
+        91.80147059397855,
+        -92.84968390602916
+    ],
+    "model_intercept": 80.82850999999997,
+    "date_created": "2025-08-19 10:48:51"
+}
