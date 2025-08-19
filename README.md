@@ -67,7 +67,7 @@ This project follows the **CRISP-DM** (Cross-Industry Standard Process for Data 
 
 1. **Data Understanding:** Exploratory Data Analysis (EDA) to understand voter turnout patterns
 2. **Data Preparation:** Feature selection, scaling, and train-test split
-3. **Modeling:** Implementation and comparison of multiple algorithms
+3. **Modeling:** Implementation and comparison of multiple algorithms (Linear Regression, Random Forest, Decision Tree)
 4. **Evaluation:** Model selection based on performance metrics
 5. **Deployment:** Model export and documentation
 
@@ -280,20 +280,20 @@ ph-election-2025-voter-turnout-prediction/
 
 ## Challenges
 
-1. **Limited dataset size** Only 125 provinces restricts model complexity
-2. **Feature limitations** Missing demographic and socioeconomic variables
-3. **Overseas voting** Significantly different patterns from domestic voting
-4. **Overfitting** Complex models (Decision Tree, Random Forest) overfit on small dataset
-5. **Prediction accuracy** Some provinces (Rizal, Laguna) harder to predict accurately
+1. **Limited dataset size** - Only 125 provinces restricts model complexity
+2. **Feature limitations** - Missing demographic and socioeconomic variables
+3. **Overseas voting** - Significantly different patterns from domestic voting
+4. **Overfitting** - Complex models (Decision Tree, Random Forest) overfit on small dataset
+5. **Prediction accuracy** - Some provinces (Rizal, Laguna) harder to predict accurately
 
 ## Future Improvements
 
-- **Expand features** Include demographic, geographic, and economic data
-- **Historical data** Incorporate previous election results for trend analysis
-- **Granular data** Add city/municipality-level data for more training instances
-- **Feature engineering** Create urban/rural classifications, population density metrics
-- **Advanced models** Explore ensemble methods with regularization
-- **Real-time updates** Implement system for live election monitoring
+- **Expand features** - Include demographic, geographic, and economic data
+- **Historical data** - Incorporate previous election results for trend analysis
+- **Granular data** - Add city/municipality-level data for more training instances
+- **Feature engineering** - Create urban/rural classifications, population density metrics
+- **Advanced models** - Explore ensemble methods with regularization
+- **Real-time updates** - Implement system for live election monitoring
 
 ## References
 
@@ -307,3 +307,4 @@ ph-election-2025-voter-turnout-prediction/
 ---
 
 *This project demonstrates the application of machine learning techniques in political science and election analysis, contributing to better understanding of voter behavior patterns in the Philippines.*
+
