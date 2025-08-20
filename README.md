@@ -191,9 +191,9 @@ This project follows the **CRISP-DM** (Cross-Industry Standard Process for Data 
 ## Key Findings
 
 ### Geographic Patterns
-- **Highest turnout** Mountain provinces (Abra 91.13%, Siquijor 90.57%, Camiguin 89.84%)
-- **Lowest turnout** Overseas voting regions (7-24% range)
-- **National average** ~80% voter participation
+- **Highest turnout** - Mountain provinces (Abra 91.13%, Siquijor 90.57%, Camiguin 89.84%)
+- **Lowest turnout** - Overseas voting regions (7-24% range)
+- **National average** - ~80% voter participation
 
 ### Important Trends
 - Precinct organization strongly correlates with higher turnout
@@ -307,6 +307,7 @@ scaler = pickle.load(open('philippine_elections_model/feature_scaler.pkl', 'rb')
 ---
 
 *This project demonstrates the application of machine learning techniques in political science and election analysis, contributing to better understanding of voter behavior patterns in the Philippines.*
+
 
 
 
