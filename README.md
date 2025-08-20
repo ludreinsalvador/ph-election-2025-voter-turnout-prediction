@@ -65,19 +65,19 @@ This project explores the use of machine learning techniques for discovering pat
 
 This project follows the **CRISP-DM** (Cross-Industry Standard Process for Data Mining) methodology:
 
-1. **Data Understanding:** Exploratory Data Analysis (EDA) to understand voter turnout patterns
-2. **Data Preparation:** Feature selection, scaling, and train-test split
-3. **Modeling:** Implementation and comparison of multiple algorithms (Linear Regression, Random Forest, Decision Tree)
-4. **Evaluation:** Model selection based on performance metrics
-5. **Deployment:** Model export and documentation
+1. **Data Understanding** - Exploratory Data Analysis (EDA) to understand voter turnout patterns
+2. **Data Preparation** - Feature selection, scaling, and train-test split
+3. **Modeling** - Implementation and comparison of multiple algorithms (Linear Regression, Random Forest, Decision Tree)
+4. **Evaluation** - Model selection based on performance metrics
+5. **Deployment** - Model export and documentation
 
 ## Key Features
 
-- **Feature Selection:** Based on correlation analysis with voter turnout
-- **Multiple Models:** Linear Regression, Random Forest, and Decision Tree comparison
-- **Comprehensive Evaluation:** R², MAE, and RMSE metrics with overfitting analysis
-- **Visualization:** Rich set of plots for data exploration and model evaluation
-- **Model Export:** Trained models saved in multiple formats for deployment
+- **Feature Selection** - based on correlation analysis with voter turnout
+- **Models Used** - Linear Regression, Random Forest, and Decision Tree comparison
+- **Comprehensive Evaluation** - R², MAE, and RMSE metrics with overfitting analysis
+- **Visualization** - set of plots for data exploration and model evaluation
+- Trained models saved in multiple formats for deployment
 
 ## Results
 
@@ -307,6 +307,7 @@ scaler = pickle.load(open('philippine_elections_model/feature_scaler.pkl', 'rb')
 ---
 
 *This project demonstrates the application of machine learning techniques in political science and election analysis, contributing to better understanding of voter behavior patterns in the Philippines.*
+
 
 
 
