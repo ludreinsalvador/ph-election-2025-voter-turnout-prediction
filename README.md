@@ -306,10 +306,6 @@ scaler = pickle.load(open('philippine_elections_model/feature_scaler.pkl', 'rb')
 
 ---
 
-*This project demonstrates the application of machine learning techniques in political science and election analysis, contributing to better understanding of voter behavior patterns in the Philippines.*
-
-
-
 
 
 
