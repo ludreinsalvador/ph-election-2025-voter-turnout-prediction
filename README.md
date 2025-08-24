@@ -1,3 +1,4 @@
+![https://github.com/ludreinsalvador/ph-election-2025-voter-turnout-prediction/blob/main/visualization/thumbnail-0.png](https://github.com/ludreinsalvador/ph-election-2025-voter-turnout-prediction/blob/main/visualization/thumbnail-0.png)
 # Predicting Provincial Voter Turnout Percentages in the 2025 Philippine Elections Using Linear Regression
 
 A machine learning project that predicts provincial voter turnout percentages in the 2025 Philippine Elections using Linear Regression analysis.
@@ -305,6 +306,7 @@ scaler = pickle.load(open('philippine_elections_model/feature_scaler.pkl', 'rb')
 - Scikit-learn. (2024). *scikit-learn: Machine Learning in Python*. Scikit-Learn.org. https://scikit-learn.org/stable/
 
 ---
+
 
 
 
